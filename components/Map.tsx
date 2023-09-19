@@ -18,7 +18,7 @@ export default function Map({}: IProps) {
   const [viewport, setViewport] = useState<ViewState>({
     latitude: -1.2,
     longitude: 36.8,
-    zoom: 25,
+    zoom: 20,
   });
   
 

@@ -33,7 +33,7 @@ const Nav = () => {
                   height={38}
                   className='object-contain'
                   />
-                  <h1 className='font-bold text-3xl text-gray-400'>Uni
+                  <h1 className='font-bold text-2xl text-gray-400'>Uni
                   <span className='text-blue-600'>Cab</span></h1>
               </Link>
             </div>
