@@ -10,10 +10,9 @@ import "mapbox-gl/dist/mapbox-gl.css";
 // import { HousesQuery_houses } from "src/generated/HousesQuery";
 // import { SearchBox } from "./searchBox";
 
-export {};
-interface IProps {}
 
-export default function Map({}: IProps) {
+
+export default function Map() {
   const mapRef = useRef<ReactMapGL | null>(null);
   const [viewport, setViewport] = useState<ViewState>({
     latitude: -1.2,
